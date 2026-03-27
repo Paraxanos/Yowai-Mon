@@ -1,4 +1,4 @@
-# LandslideMoE: Complete Implementation Documentation
+# LandslideMoE: Implementation Documentation
 Team The Boogiemen
 **A Faithful Replication of EEGMoE (IEEE TNNLS 2026) for Landslide Prediction**
 
@@ -241,23 +241,23 @@ where num_patches = (64/16)² = 16 tokens
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                      INPUT: (B, 18, 64, 64)                      │
-│         Sentinel-1 + Sentinel-2 + Rain + Soil + DEM              │
+│                      INPUT: (B, 18, 64, 64)                     │
+│         Sentinel-1 + Sentinel-2 + Rain + Soil + DEM             │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                              ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    PATCH EMBEDDING LAYER                         │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │
-│  │ Conv2d(18→256│  │ Positional   │  │ Domain       │          │
-│  │ 16×16 stride)│ +│ Embedding    │ +│ Embedding    │          │
-│  └──────────────┘  └──────────────┘  └──────────────┘          │
-│                     Output: (B, 16, 256)                         │
+│                    PATCH EMBEDDING LAYER                        │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│  │ Conv2d(18→256│  │ Positional   │  │ Domain       │           │
+│  │ 16×16 stride)│ +│ Embedding    │ +│ Embedding    │           │
+│  └──────────────┘  └──────────────┘  └──────────────┘           │
+│                     Output: (B, 16, 256)                        │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                              ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                    EEGMoE ENCODER (×6 layers)                    │
+│                    EEGMoE ENCODER (×6 layers)                   │
 │  ┌───────────────────────────────────────────────────────────┐  │
 │  │ LAYER 1:                                                  │  │
 │  │   ┌─────────────┐    ┌─────────────────────────────────┐  │  │
@@ -270,7 +270,7 @@ where num_patches = (64/16)² = 16 tokens
 │  │                      └─────────────────────────────────┘  │  │
 │  └───────────────────────────────────────────────────────────┘  │
 │  ... (repeat for 6 layers)                                      │
-│                     Output: (B, 16, 256)                         │
+│                     Output: (B, 16, 256)                        │
 └────────────────────────────┬────────────────────────────────────┘
                              │
               ┌──────────────┴──────────────┐
@@ -284,7 +284,7 @@ where num_patches = (64/16)² = 16 tokens
 │ │ GELU                │ │   │ │ Linear(256→128)     │ │
 │ │ Linear(512→288)     │ │   │ │ GELU + Dropout      │ │
 │ │ (reconstruct masked │ │   │ │ Linear(128→1)       │ │
-│ │  patches)            │ │   │ │ (binary output)     │ │
+│ │  patches)           │ │   │ │ (binary output)     │ │
 │ └─────────────────────┘ │   │ └─────────────────────┘ │
 └─────────────────────────┘   └─────────────────────────┘
 ```
