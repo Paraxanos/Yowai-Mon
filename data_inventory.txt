@@ -1,0 +1,59 @@
+DATA INVENTORY LOG - Replicate-2026
+==================================================
+
+Landslide Atlas (Ground Truth): PRESENT - 10.57 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\LandslideAtlas_new_2023.pdf
+
+Copernicus DEM (Elevation): PRESENT - 0.66 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Copernicus_DEM_30m.tif
+
+Sentinel-1 SAR (2024-12-11): PRESENT - 12.76 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-1_2024-12-11_SAR.tif
+
+Sentinel-1 SAR (2024-12-16): PRESENT - 12.78 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-1_2024-12-16_SAR.tif
+
+Rainfall Data (Kerala): PRESENT - 0.64 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Rainfall Data\kerala_rainfall_data.nc
+
+Soil Moisture: PRESENT - 11.40 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Soil_moisture\Soil_Mositure.zip
+
+Sentinel-2 B01 (Coastal/Aerosol): PRESENT - 1.45 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B01.tif
+
+Sentinel-2 B02 (Blue): PRESENT - 1.98 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B02.tif
+
+Sentinel-2 B03 (Green): PRESENT - 2.18 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B03.tif
+
+Sentinel-2 B04 (Red): PRESENT - 2.06 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B04.tif
+
+Sentinel-2 B05 (Vegetation Red Edge 1): PRESENT - 2.28 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B05.tif
+
+Sentinel-2 B06 (Vegetation Red Edge 2): PRESENT - 2.68 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B06.tif
+
+Sentinel-2 B07 (Vegetation Red Edge 3): PRESENT - 2.77 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B07.tif
+
+Sentinel-2 B08 (NIR): PRESENT - 2.89 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B08.tif
+
+Sentinel-2 B8A (NIR Narrow): PRESENT - 2.79 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B8A.tif
+
+Sentinel-2 B09 (Water Vapor): PRESENT - 2.58 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B09.tif
+
+Sentinel-2 B11 (SWIR 1): PRESENT - 2.52 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B11.tif
+
+Sentinel-2 B12 (SWIR 2): PRESENT - 2.32 MB
+  Path: C:\Users\Pranjal\Desktop\Replicate_Research\Datasets\Sentinel-2\B12.tif
+
+
+Total Size: 77.29 MB
