@@ -1,0 +1,13 @@
+"Dynamic modelling of debris flow landslides has become an increasingly important practice for simulating the
+characteristics and behaviour of debris flow relying on the physical laws of conservation of mass, momentum and
+energy (Melo et al., 2018). This model approach can be broadly classified as the lumped mass moment where motion
+of slide is considered as a single point which is not always the case or based on continuum mechanics associated with
+a distinct rheology (Hungr, 1995). To simulate the deformation of the moving mass along the flow path, choosing
+appropriate friction parameters and material rheologies is taxing (Rickenmann, 2005)."
+"Numerical debris flow modelling was carried out for several major landslides in Kerala to characterize the landslide
+geometry and assess their impact."
+"For modeling debris flow paths, Rapid Mass Movement Simulation (RAMMS) software developed by WSL Institute for
+Snow and Avalanche Research SLF and the Swiss Federal Institute for Forest, Snow and Landscape Research WSL, was
+used. The model gives flow height, velocity and pressure of debris flow. The main input parameters to be ingested in the
+model are high resolution Digital Elevation Model (DEM) for deriving topographic parameters, release area and friction
+information. CartoDEM (2.5 m) was used forflowmodeling (Jain et al. 2021)."

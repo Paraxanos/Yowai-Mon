@@ -1,0 +1,95 @@
+﻿Landslide Dataset Description
+
+
+Implementation paper : EEGMoE: A Domain-Decoupled Mixture-of-Experts Model for Self-Supervised EEG Representation Learning
+
+
+Drive Link: https://drive.google.com/file/d/1P3BZez5bBwFidgadsw64ei3WO8PdLX0N/view?usp=sharing
+Implementing the above paper for predicting the possibility of landslides using  the given Datasets. Use the landslide atlas as ground truth for training, testing and validation.
+
+
+Core Objective:  Participants are required to replicate the exact architecture proposed in the given EEGMoE paper and adapt it for landslide Sustainability Map and  Detection. While the original paper focuses on EEG representation, your task is to implement this specific Domain-Decoupled Mixture-of-Experts architecture to predict the possibility of landslides using the datasets provided below. Use the landslide atlas as ground truth for training, testing, and validation.
+LandslideAtlas : https://drive.google.com/file/d/1phUWEeg5m2DeJry13vpoN70WZW71iDfH/view?usp=sharing
+1. Satellite Data
+Sentinel-1 (SAR Data)
+* Sensor Type: Synthetic Aperture Radar (SAR)
+* Acquisition Mode: Typically IW (Interferometric Wide Swath)
+* Spatial Resolution: 10 meters
+* Key Characteristics:
+   * Operates in C-band microwave, enabling all-weather and day–night imaging
+   * Sensitive to surface roughness and moisture variations
+   * Useful for detecting terrain deformation 
+Sentinel-2 (Multispectral Data)
+* Sensor Type: Optical multispectral imaging
+* Bands: 13 spectral bands (Visible, NIR, SWIR)
+* Spatial Resolution:
+   * 10 m (Bands 2, 3, 4, 8)
+   * 20 m (Bands 5, 6, 7, 8A, 11, 12)
+   * 60 m (Bands 1, 9, 10)
+* Key Characteristics:
+   * Provides rich spectral information for vegetation, soil, and land cover analysis
+   * Enables computation of indices such as NDVI, NDWI, and NBR
+   * Supports detection of vegetation loss and exposed soil in landslide regions
+2. Hydrometeorological Data
+Rainfall Data
+* Format: Raster (grid-based representation)
+* Temporal Resolution: (Specify if daily/hourly – currently missing)
+* Role:
+   * Acts as a primary triggering factor for landslides
+   * Enables modeling of rainfall thresholds and cumulative precipitation effects
+3. Soil and Surface Condition Data
+Soil Moisture Dataset
+* Format: Raster data
+* Source: (Specify if SMAP, ERA5, or in-situ derived – currently unclear)
+* Role:
+   * Indicates water content in soil layers, directly influencing slope stability
+   * Critical for identifying saturated conditions leading to slope failure
+Test Cases
+1. Wayanad Landslide Event (2024)
+* Location: Wayanad, Kerala, India
+* Event Type: Extreme rainfall-induced landslides
+* Dataset Access: https://drive.google.com/drive/folders/1X42vJcGyTYTfOAzMgwKNRmGUKWyF4FJC?usp=sharing
+* Reference: https://drive.google.com/drive/folders/1VZFhK6X5VefdFup_rLC9PJpERi_XQBXW?usp=sharing
+* Impact Map: https://drive.google.com/file/d/1hZD3yG4Y6FeWs4fs0k9rwOGqvP_v_8gi/view?usp=sharing
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Puthumala Landslide Event (2019)
+  
+
+* Location: Puthumalai (near Gudalur region, Tamil Nadu–Kerala border)
+* Event Type: Catastrophic landslide
+* Characteristics:
+   * Occurred during 2019 monsoon extreme rainfall events
+   * Associated with large-scale slope failure and debris flow
+* Dataset Access:
+   * Google Drive: https://drive.google.com/drive/folders/1sQnIyzPhhsewpaCmYCyGw8GvoCKd1j60?usp=sharing
